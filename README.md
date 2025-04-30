@@ -9,7 +9,7 @@ This Repo Consits of following files with refering names.
 https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025/data
 
 =-------Code to get the data frame to ypur playgroud to play.
-# Install dependencies as needed:
+**# Install dependencies as needed:
 # pip install kagglehub[pandas-datasets]
 import kagglehub
 from kagglehub import KaggleDatasetAdapter
@@ -28,7 +28,7 @@ df = kagglehub.load_dataset(
   # https://github.com/Kaggle/kagglehub/blob/main/README.md#kaggledatasetadapterpandas
 )
 
-print("First 5 records:", df.head())
+print("First 5 records:", df.head())**
 
 ---> **ProjectMobiles(2).ipynb ** spark code when Stage one cleaning with Cluster in Data Bricks 
 
